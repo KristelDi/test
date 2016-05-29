@@ -1,0 +1,299 @@
+/usr/sbin/mysqld, Version: 5.5.49-0+deb8u1-log ((Debian)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 160529 16:08:49
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000239  Lock_time: 0.000090 Rows_sent: 1  Rows_examined: 6
+SET timestamp=1464527329;
+SELECT count(*) FROM mysql.user WHERE user='root' and password='';
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.006501  Lock_time: 0.000149 Rows_sent: 31  Rows_examined: 87
+SET timestamp=1464527329;
+select concat('select count(*) into @discard from `',
+                    TABLE_SCHEMA, '`.`', TABLE_NAME, '`') 
+      from information_schema.TABLES where ENGINE='MyISAM';
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.012268  Lock_time: 0.000355 Rows_sent: 0  Rows_examined: 849
+SET timestamp=1464527329;
+select count(*) into @discard from `information_schema`.`COLUMNS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000556  Lock_time: 0.000429 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527329;
+select count(*) into @discard from `information_schema`.`EVENTS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000602  Lock_time: 0.000451 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527329;
+select count(*) into @discard from `information_schema`.`PARAMETERS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.031153  Lock_time: 0.000383 Rows_sent: 0  Rows_examined: 87
+SET timestamp=1464527329;
+select count(*) into @discard from `information_schema`.`PARTITIONS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000673  Lock_time: 0.000316 Rows_sent: 0  Rows_examined: 23
+SET timestamp=1464527329;
+select count(*) into @discard from `information_schema`.`PLUGINS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000484  Lock_time: 0.000295 Rows_sent: 0  Rows_examined: 1
+SET timestamp=1464527329;
+select count(*) into @discard from `information_schema`.`PROCESSLIST`;
+# Time: 160529 16:08:50
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000587  Lock_time: 0.000462 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527330;
+select count(*) into @discard from `information_schema`.`ROUTINES`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.003880  Lock_time: 0.000324 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527330;
+select count(*) into @discard from `information_schema`.`TRIGGERS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.003724  Lock_time: 0.000315 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527330;
+select count(*) into @discard from `information_schema`.`VIEWS`;
+/usr/sbin/mysqld, Version: 5.5.49-0+deb8u1-log ((Debian)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 160529 16:09:31
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000234  Lock_time: 0.000088 Rows_sent: 1  Rows_examined: 6
+SET timestamp=1464527371;
+SELECT count(*) FROM mysql.user WHERE user='root' and password='';
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.006202  Lock_time: 0.000160 Rows_sent: 31  Rows_examined: 87
+SET timestamp=1464527371;
+select concat('select count(*) into @discard from `',
+                    TABLE_SCHEMA, '`.`', TABLE_NAME, '`') 
+      from information_schema.TABLES where ENGINE='MyISAM';
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.012221  Lock_time: 0.000324 Rows_sent: 0  Rows_examined: 849
+SET timestamp=1464527371;
+select count(*) into @discard from `information_schema`.`COLUMNS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000533  Lock_time: 0.000412 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527371;
+select count(*) into @discard from `information_schema`.`EVENTS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000534  Lock_time: 0.000401 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527371;
+select count(*) into @discard from `information_schema`.`PARAMETERS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.031807  Lock_time: 0.000366 Rows_sent: 0  Rows_examined: 87
+SET timestamp=1464527371;
+select count(*) into @discard from `information_schema`.`PARTITIONS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000624  Lock_time: 0.000278 Rows_sent: 0  Rows_examined: 23
+SET timestamp=1464527371;
+select count(*) into @discard from `information_schema`.`PLUGINS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000376  Lock_time: 0.000228 Rows_sent: 0  Rows_examined: 1
+SET timestamp=1464527371;
+select count(*) into @discard from `information_schema`.`PROCESSLIST`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000516  Lock_time: 0.000407 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527371;
+select count(*) into @discard from `information_schema`.`ROUTINES`;
+# Time: 160529 16:09:32
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.003897  Lock_time: 0.000344 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527372;
+select count(*) into @discard from `information_schema`.`TRIGGERS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.003457  Lock_time: 0.000210 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527372;
+select count(*) into @discard from `information_schema`.`VIEWS`;
+/usr/sbin/mysqld, Version: 5.5.49-0+deb8u1-log ((Debian)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 160529 16:11:28
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000259  Lock_time: 0.000111 Rows_sent: 1  Rows_examined: 6
+SET timestamp=1464527488;
+SELECT count(*) FROM mysql.user WHERE user='root' and password='';
+# Time: 160529 16:11:29
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.006150  Lock_time: 0.000114 Rows_sent: 31  Rows_examined: 87
+SET timestamp=1464527489;
+select concat('select count(*) into @discard from `',
+                    TABLE_SCHEMA, '`.`', TABLE_NAME, '`') 
+      from information_schema.TABLES where ENGINE='MyISAM';
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.012403  Lock_time: 0.000339 Rows_sent: 0  Rows_examined: 849
+SET timestamp=1464527489;
+select count(*) into @discard from `information_schema`.`COLUMNS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000528  Lock_time: 0.000408 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527489;
+select count(*) into @discard from `information_schema`.`EVENTS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000534  Lock_time: 0.000401 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527489;
+select count(*) into @discard from `information_schema`.`PARAMETERS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.031046  Lock_time: 0.000377 Rows_sent: 0  Rows_examined: 87
+SET timestamp=1464527489;
+select count(*) into @discard from `information_schema`.`PARTITIONS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000598  Lock_time: 0.000265 Rows_sent: 0  Rows_examined: 23
+SET timestamp=1464527489;
+select count(*) into @discard from `information_schema`.`PLUGINS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000483  Lock_time: 0.000298 Rows_sent: 0  Rows_examined: 1
+SET timestamp=1464527489;
+select count(*) into @discard from `information_schema`.`PROCESSLIST`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.000590  Lock_time: 0.000472 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527489;
+select count(*) into @discard from `information_schema`.`ROUTINES`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.003897  Lock_time: 0.000356 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527489;
+select count(*) into @discard from `information_schema`.`TRIGGERS`;
+# User@Host: debian-sys-maint[debian-sys-maint] @ localhost []
+# Query_time: 0.003490  Lock_time: 0.000233 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464527489;
+select count(*) into @discard from `information_schema`.`VIEWS`;
+# Time: 160529 16:11:41
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.869051  Lock_time: 0.000080 Rows_sent: 58  Rows_examined: 242842
+use forum;
+SET timestamp=1464527501;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='gzv' GROUP BY u.id  ORDER BY u.name desc LIMIT 58;
+# Time: 160529 16:11:45
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.153059  Lock_time: 0.000107 Rows_sent: 45  Rows_examined: 102795
+SET timestamp=1464527505;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='gx59rwt4' ORDER BY p.date desc LIMIT 45;
+# Time: 160529 16:11:48
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.113100  Lock_time: 0.000129 Rows_sent: 93  Rows_examined: 102843
+SET timestamp=1464527508;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='gx59rwt4' ORDER BY p.date desc LIMIT 93;
+# Time: 160529 16:11:51
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.185789  Lock_time: 0.000080 Rows_sent: 37  Rows_examined: 97184
+SET timestamp=1464527511;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='dbi5kvqmt' ORDER BY p.date asc LIMIT 37;
+# Time: 160529 16:11:56
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.439813  Lock_time: 0.000127 Rows_sent: 52  Rows_examined: 269150
+SET timestamp=1464527516;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='h48' GROUP BY u.id  ORDER BY u.name asc LIMIT 52;
+# Time: 160529 16:11:59
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.054971  Lock_time: 0.000063 Rows_sent: 25  Rows_examined: 104046
+SET timestamp=1464527519;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='lhr' ORDER BY p.date desc LIMIT 25;
+# Time: 160529 16:12:03
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.401222  Lock_time: 0.000108 Rows_sent: 90  Rows_examined: 261430
+SET timestamp=1464527523;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='vey37' GROUP BY u.id  ORDER BY u.name desc LIMIT 90;
+# Time: 160529 16:12:06
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.081330  Lock_time: 0.000102 Rows_sent: 68  Rows_examined: 101408
+SET timestamp=1464527526;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='av' ORDER BY p.date asc LIMIT 68;
+# Time: 160529 16:12:09
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.106419  Lock_time: 0.000123 Rows_sent: 99  Rows_examined: 98078
+SET timestamp=1464527529;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='4v1' ORDER BY p.date asc LIMIT 99;
+# Time: 160529 16:12:13
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.146209  Lock_time: 0.000131 Rows_sent: 54  Rows_examined: 97201
+SET timestamp=1464527533;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='dbi5kvqmt' ORDER BY p.date asc LIMIT 54;
+# Time: 160529 16:12:17
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.413928  Lock_time: 0.000078 Rows_sent: 62  Rows_examined: 267149
+SET timestamp=1464527537;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='gx59rwt4' GROUP BY u.id  ORDER BY u.name desc LIMIT 62;
+# Time: 160529 16:12:21
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.193130  Lock_time: 0.000062 Rows_sent: 54  Rows_examined: 261394
+SET timestamp=1464527541;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='vey37' GROUP BY u.id  ORDER BY u.name desc LIMIT 54;
+# Time: 160529 16:12:26
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.476795  Lock_time: 0.000053 Rows_sent: 75  Rows_examined: 242859
+SET timestamp=1464527546;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='gzv' GROUP BY u.id  ORDER BY u.name desc LIMIT 75;
+# Time: 160529 16:12:29
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.046485  Lock_time: 0.000114 Rows_sent: 90  Rows_examined: 103670
+SET timestamp=1464527549;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='h48' ORDER BY p.date asc LIMIT 90;
+# Time: 160529 16:12:33
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.397048  Lock_time: 0.000123 Rows_sent: 40  Rows_examined: 267127
+SET timestamp=1464527553;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='gx59rwt4' GROUP BY u.id  ORDER BY u.name asc LIMIT 40;
+# Time: 160529 16:12:38
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.237295  Lock_time: 0.000061 Rows_sent: 94  Rows_examined: 259535
+SET timestamp=1464527558;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='m2u' GROUP BY u.id  ORDER BY u.name asc LIMIT 94;
+# Time: 160529 16:12:41
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.076070  Lock_time: 0.000058 Rows_sent: 93  Rows_examined: 101433
+SET timestamp=1464527561;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='av' ORDER BY p.date asc LIMIT 93;
+# Time: 160529 16:12:44
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.078349  Lock_time: 0.000104 Rows_sent: 100  Rows_examined: 101289
+SET timestamp=1464527564;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='76nytieswk' ORDER BY p.date asc LIMIT 100;
+# Time: 160529 16:12:48
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.363780  Lock_time: 0.000112 Rows_sent: 33  Rows_examined: 267120
+SET timestamp=1464527568;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='gx59rwt4' GROUP BY u.id  ORDER BY u.name asc LIMIT 33;
+# Time: 160529 16:12:53
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.200905  Lock_time: 0.000216 Rows_sent: 69  Rows_examined: 261409
+SET timestamp=1464527573;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='vey37' GROUP BY u.id  ORDER BY u.name asc LIMIT 69;
+# Time: 160529 16:12:57
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.109537  Lock_time: 0.000116 Rows_sent: 45  Rows_examined: 264040
+SET timestamp=1464527577;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='av' GROUP BY u.id  ORDER BY u.name asc LIMIT 45;
+# Time: 160529 16:13:00
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.110963  Lock_time: 0.000138 Rows_sent: 38  Rows_examined: 99433
+SET timestamp=1464527580;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='m2u' ORDER BY p.date asc LIMIT 38;
+# Time: 160529 16:13:03
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.083142  Lock_time: 0.000063 Rows_sent: 47  Rows_examined: 99442
+SET timestamp=1464527583;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='m2u' ORDER BY p.date desc LIMIT 47;
+# Time: 160529 16:13:07
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.382139  Lock_time: 0.000079 Rows_sent: 70  Rows_examined: 267157
+SET timestamp=1464527587;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='gx59rwt4' GROUP BY u.id  ORDER BY u.name desc LIMIT 70;
+# Time: 160529 16:13:12
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.210610  Lock_time: 0.000062 Rows_sent: 37  Rows_examined: 261377
+SET timestamp=1464527592;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='vey37' GROUP BY u.id  ORDER BY u.name desc LIMIT 37;
+# Time: 160529 16:13:16
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.117078  Lock_time: 0.000060 Rows_sent: 75  Rows_examined: 264070
+SET timestamp=1464527596;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='av' GROUP BY u.id  ORDER BY u.name asc LIMIT 75;
+# Time: 160529 16:13:20
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.242975  Lock_time: 0.000055 Rows_sent: 13  Rows_examined: 259454
+SET timestamp=1464527600;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='m2u' GROUP BY u.id  ORDER BY u.name asc LIMIT 13;
+# Time: 160529 16:13:23
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.046618  Lock_time: 0.000057 Rows_sent: 25  Rows_examined: 103605
+SET timestamp=1464527603;
+SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='h48' ORDER BY p.date asc LIMIT 25;
+# Time: 160529 16:13:28
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 4.345474  Lock_time: 0.000071 Rows_sent: 52  Rows_examined: 263492
+SET timestamp=1464527608;
+SELECT *, u.id as main_id FROM Users u JOIN Posts p ON u.email = p.user WHERE p.forum='76nytieswk' GROUP BY u.id  ORDER BY u.name desc LIMIT 52;
