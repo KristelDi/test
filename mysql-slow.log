@@ -1,99 +1,119 @@
 /usr/sbin/mysqld, Version: 5.5.49-0+deb8u1-log ((Debian)). started with:
 Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
 Time                 Id Command    Argument
-# Time: 160530 21:39:18
+# Time: 160530 21:50:34
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.551025  Lock_time: 0.000087 Rows_sent: 60856  Rows_examined: 161263
+# Query_time: 3.172592  Lock_time: 0.000078 Rows_sent: 60856  Rows_examined: 161263
 use forum;
-SET timestamp=1464633558;
+SET timestamp=1464634234;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='l4';
-# Time: 160530 21:39:25
+# Time: 160530 21:50:41
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.763223  Lock_time: 0.000028 Rows_sent: 61931  Rows_examined: 165964
-SET timestamp=1464633565;
+# Query_time: 6.800906  Lock_time: 0.000028 Rows_sent: 61931  Rows_examined: 165964
+SET timestamp=1464634241;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='vikycowg4';
-# Time: 160530 21:39:32
+# Time: 160530 21:50:45
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.336372  Lock_time: 0.000030 Rows_sent: 60113  Rows_examined: 158053
-SET timestamp=1464633572;
+# Query_time: 3.259650  Lock_time: 0.000077 Rows_sent: 60113  Rows_examined: 158053
+SET timestamp=1464634245;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='gg';
-# Time: 160530 21:39:38
+# Time: 160530 21:50:52
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.497038  Lock_time: 0.000030 Rows_sent: 60784  Rows_examined: 160416
-SET timestamp=1464633578;
+# Query_time: 6.524323  Lock_time: 0.000030 Rows_sent: 60784  Rows_examined: 160416
+SET timestamp=1464634252;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='c5q';
-# Time: 160530 21:39:45
+# Time: 160530 21:50:59
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.682201  Lock_time: 0.000037 Rows_sent: 61863  Rows_examined: 165087
-SET timestamp=1464633585;
+# Query_time: 6.720354  Lock_time: 0.000038 Rows_sent: 61863  Rows_examined: 165087
+SET timestamp=1464634259;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='so8c4';
-# Time: 160530 21:39:52
+# Time: 160530 21:51:02
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.404206  Lock_time: 0.000047 Rows_sent: 60529  Rows_examined: 159431
-SET timestamp=1464633592;
+# Query_time: 3.237212  Lock_time: 0.000034 Rows_sent: 60529  Rows_examined: 159431
+SET timestamp=1464634262;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='wxg54';
-# Time: 160530 21:40:09
+# Time: 160530 21:51:19
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.442407  Lock_time: 0.000035 Rows_sent: 60585  Rows_examined: 159794
-SET timestamp=1464633609;
+# Query_time: 6.456184  Lock_time: 0.000034 Rows_sent: 60585  Rows_examined: 159794
+SET timestamp=1464634279;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='21';
-# Time: 160530 21:40:17
+# Time: 160530 21:51:24
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.427604  Lock_time: 0.000037 Rows_sent: 60383  Rows_examined: 158951
-SET timestamp=1464633617;
+# Query_time: 3.209372  Lock_time: 0.000034 Rows_sent: 60383  Rows_examined: 158951
+SET timestamp=1464634284;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='6m18te';
-# Time: 160530 21:40:34
+# Time: 160530 21:51:41
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.556855  Lock_time: 0.000027 Rows_sent: 60960  Rows_examined: 161481
-SET timestamp=1464633634;
+# Query_time: 6.571425  Lock_time: 0.000031 Rows_sent: 60960  Rows_examined: 161481
+SET timestamp=1464634301;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='hblyetdvzx';
-# Time: 160530 21:40:46
+# Time: 160530 21:51:53
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.462858  Lock_time: 0.000034 Rows_sent: 60585  Rows_examined: 159794
-SET timestamp=1464633646;
+# Query_time: 6.456249  Lock_time: 0.000076 Rows_sent: 60585  Rows_examined: 159794
+SET timestamp=1464634313;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='21';
-# Time: 160530 21:40:53
+# Time: 160530 21:51:57
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.422347  Lock_time: 0.000032 Rows_sent: 60383  Rows_examined: 158951
-SET timestamp=1464633653;
+# Query_time: 3.227618  Lock_time: 0.000031 Rows_sent: 60383  Rows_examined: 158951
+SET timestamp=1464634317;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='6m18te';
-# Time: 160530 21:41:04
+# Time: 160530 21:52:05
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.390669  Lock_time: 0.000101 Rows_sent: 59961  Rows_examined: 157525
-SET timestamp=1464633664;
+# Query_time: 3.245706  Lock_time: 0.000103 Rows_sent: 59961  Rows_examined: 157525
+SET timestamp=1464634325;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='uedn';
-# Time: 160530 21:41:13
+# Time: 160530 21:52:10
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.420256  Lock_time: 0.000068 Rows_sent: 60529  Rows_examined: 159431
-SET timestamp=1464633673;
+# Query_time: 3.221681  Lock_time: 0.000081 Rows_sent: 60529  Rows_examined: 159431
+SET timestamp=1464634330;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='wxg54';
-# Time: 160530 21:41:20
+# Time: 160530 21:52:14
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.485036  Lock_time: 0.000028 Rows_sent: 60856  Rows_examined: 161263
-SET timestamp=1464633680;
+# Query_time: 3.179567  Lock_time: 0.000030 Rows_sent: 60856  Rows_examined: 161263
+SET timestamp=1464634334;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='l4';
-# Time: 160530 21:41:27
+# Time: 160530 21:52:21
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.788865  Lock_time: 0.000039 Rows_sent: 61931  Rows_examined: 165964
-SET timestamp=1464633687;
+# Query_time: 6.871157  Lock_time: 0.000036 Rows_sent: 61931  Rows_examined: 165964
+SET timestamp=1464634341;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='vikycowg4';
-# Time: 160530 21:41:35
+# Time: 160530 21:52:26
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.364384  Lock_time: 0.000083 Rows_sent: 60113  Rows_examined: 158053
-SET timestamp=1464633695;
+# Query_time: 3.251116  Lock_time: 0.000085 Rows_sent: 60113  Rows_examined: 158053
+SET timestamp=1464634346;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='gg';
-# Time: 160530 21:41:52
+# Time: 160530 21:52:43
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.744839  Lock_time: 0.000029 Rows_sent: 61863  Rows_examined: 165087
-SET timestamp=1464633712;
+# Query_time: 6.740712  Lock_time: 0.000028 Rows_sent: 61863  Rows_examined: 165087
+SET timestamp=1464634363;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='so8c4';
-# Time: 160530 21:41:59
+# Time: 160530 21:52:50
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.531105  Lock_time: 0.000036 Rows_sent: 60960  Rows_examined: 161481
-SET timestamp=1464633719;
+# Query_time: 6.528310  Lock_time: 0.000071 Rows_sent: 60960  Rows_examined: 161481
+SET timestamp=1464634370;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='hblyetdvzx';
-# Time: 160530 21:42:21
+# Time: 160530 21:53:12
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 6.553830  Lock_time: 0.000026 Rows_sent: 60784  Rows_examined: 160416
-SET timestamp=1464633741;
+# Query_time: 6.485503  Lock_time: 0.000028 Rows_sent: 60784  Rows_examined: 160416
+SET timestamp=1464634392;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='c5q';
+# Time: 160530 21:53:27
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.229297  Lock_time: 0.000029 Rows_sent: 60529  Rows_examined: 159431
+SET timestamp=1464634407;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='wxg54';
+# Time: 160530 21:53:34
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 6.773763  Lock_time: 0.000101 Rows_sent: 61863  Rows_examined: 165087
+SET timestamp=1464634414;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='so8c4';
+# Time: 160530 21:53:39
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 3.210065  Lock_time: 0.000035 Rows_sent: 60856  Rows_examined: 161263
+SET timestamp=1464634419;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='l4';
+# Time: 160530 21:53:46
+# User@Host: root[root] @ localhost [127.0.0.1]
+# Query_time: 6.619058  Lock_time: 0.000106 Rows_sent: 60960  Rows_examined: 161481
+SET timestamp=1464634426;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='hblyetdvzx';
