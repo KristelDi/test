@@ -1,209 +1,79 @@
 /usr/sbin/mysqld, Version: 5.5.49-0+deb8u1-log ((Debian)). started with:
 Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
 Time                 Id Command    Argument
-# Time: 160530 20:50:57
+# Time: 160530 21:15:11
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.042326  Lock_time: 0.000068 Rows_sent: 66  Rows_examined: 99698
+# Query_time: 6.565838  Lock_time: 0.000045 Rows_sent: 60856  Rows_examined: 161263
 use forum;
-SET timestamp=1464630657;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='c5q' ORDER BY p.date asc LIMIT 66;
-# Time: 160530 20:51:00
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.084290  Lock_time: 0.000075 Rows_sent: 37  Rows_examined: 97977
-SET timestamp=1464630660;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='gg' ORDER BY p.date desc LIMIT 37;
-# Time: 160530 20:51:03
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.084305  Lock_time: 0.000063 Rows_sent: 44  Rows_examined: 97608
-SET timestamp=1464630663;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='uedn' ORDER BY p.date asc LIMIT 44;
-# Time: 160530 20:51:06
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.173500  Lock_time: 0.000092 Rows_sent: 60856  Rows_examined: 161263
-SET timestamp=1464630666;
+SET timestamp=1464632111;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='l4';
-# Time: 160530 20:51:13
+# Time: 160530 21:15:22
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.078097  Lock_time: 0.000059 Rows_sent: 68  Rows_examined: 100589
-SET timestamp=1464630673;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='hblyetdvzx' ORDER BY p.date desc LIMIT 68;
-# Time: 160530 20:51:16
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.012950  Lock_time: 0.000076 Rows_sent: 54  Rows_examined: 104087
-SET timestamp=1464630676;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='vikycowg4' ORDER BY p.date desc LIMIT 54;
-# Time: 160530 20:51:19
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.109265  Lock_time: 0.000029 Rows_sent: 61931  Rows_examined: 165964
-SET timestamp=1464630679;
+# Query_time: 6.851050  Lock_time: 0.000031 Rows_sent: 61931  Rows_examined: 165964
+SET timestamp=1464632122;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='vikycowg4';
-# Time: 160530 20:51:26
+# Time: 160530 21:15:33
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.079489  Lock_time: 0.000102 Rows_sent: 74  Rows_examined: 98976
-SET timestamp=1464630686;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='wxg54' ORDER BY p.date desc LIMIT 74;
-# Time: 160530 20:51:29
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.079807  Lock_time: 0.000139 Rows_sent: 47  Rows_examined: 98615
-SET timestamp=1464630689;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='6m18te' ORDER BY p.date asc LIMIT 47;
-# Time: 160530 20:51:32
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.095230  Lock_time: 0.000065 Rows_sent: 85  Rows_examined: 97649
-SET timestamp=1464630692;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='uedn' ORDER BY p.date asc LIMIT 85;
-# Time: 160530 20:51:35
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.095179  Lock_time: 0.000077 Rows_sent: 57  Rows_examined: 100578
-SET timestamp=1464630695;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='hblyetdvzx' ORDER BY p.date desc LIMIT 57;
-# Time: 160530 20:51:39
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.242155  Lock_time: 0.000060 Rows_sent: 60113  Rows_examined: 158053
-SET timestamp=1464630699;
+# Query_time: 6.353927  Lock_time: 0.000033 Rows_sent: 60113  Rows_examined: 158053
+SET timestamp=1464632133;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='gg';
-# Time: 160530 20:51:44
+# Time: 160530 21:15:42
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.192697  Lock_time: 0.000065 Rows_sent: 60784  Rows_examined: 160416
-SET timestamp=1464630704;
+# Query_time: 6.482741  Lock_time: 0.000035 Rows_sent: 60784  Rows_examined: 160416
+SET timestamp=1464632142;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='c5q';
-# Time: 160530 20:51:51
+# Time: 160530 21:15:52
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.138123  Lock_time: 0.000035 Rows_sent: 61863  Rows_examined: 165087
-SET timestamp=1464630711;
+# Query_time: 6.753434  Lock_time: 0.000036 Rows_sent: 61863  Rows_examined: 165087
+SET timestamp=1464632152;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='so8c4';
-# Time: 160530 20:51:57
+# Time: 160530 21:16:04
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.092576  Lock_time: 0.000056 Rows_sent: 54  Rows_examined: 97994
-SET timestamp=1464630717;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='gg' ORDER BY p.date asc LIMIT 54;
-# Time: 160530 20:52:00
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.095086  Lock_time: 0.000136 Rows_sent: 12  Rows_examined: 100533
-SET timestamp=1464630720;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='hblyetdvzx' ORDER BY p.date desc LIMIT 12;
-# Time: 160530 20:52:04
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.100020  Lock_time: 0.000065 Rows_sent: 49  Rows_examined: 97989
-SET timestamp=1464630724;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='gg' ORDER BY p.date desc LIMIT 49;
-# Time: 160530 20:52:07
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.017626  Lock_time: 0.000055 Rows_sent: 85  Rows_examined: 104118
-SET timestamp=1464630727;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='vikycowg4' ORDER BY p.date desc LIMIT 85;
-# Time: 160530 20:52:10
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.018665  Lock_time: 0.000048 Rows_sent: 55  Rows_examined: 104088
-SET timestamp=1464630730;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='vikycowg4' ORDER BY p.date desc LIMIT 55;
-# Time: 160530 20:52:13
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.101141  Lock_time: 0.000081 Rows_sent: 46  Rows_examined: 97610
-SET timestamp=1464630733;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='uedn' ORDER BY p.date desc LIMIT 46;
-# Time: 160530 20:52:16
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.065005  Lock_time: 0.000089 Rows_sent: 29  Rows_examined: 99661
-SET timestamp=1464630736;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='c5q' ORDER BY p.date asc LIMIT 29;
-# Time: 160530 20:52:19
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.015022  Lock_time: 0.000103 Rows_sent: 13  Rows_examined: 104046
-SET timestamp=1464630739;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='vikycowg4' ORDER BY p.date asc LIMIT 13;
-# Time: 160530 20:52:22
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.220953  Lock_time: 0.000114 Rows_sent: 60529  Rows_examined: 159431
-SET timestamp=1464630742;
+# Query_time: 6.454809  Lock_time: 0.000087 Rows_sent: 60529  Rows_examined: 159431
+SET timestamp=1464632164;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='wxg54';
-# Time: 160530 20:52:35
+# Time: 160530 21:16:31
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.066428  Lock_time: 0.000073 Rows_sent: 16  Rows_examined: 100423
-SET timestamp=1464630755;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='l4' ORDER BY p.date asc LIMIT 16;
-# Time: 160530 20:52:39
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.090741  Lock_time: 0.000053 Rows_sent: 27  Rows_examined: 100548
-SET timestamp=1464630759;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='hblyetdvzx' ORDER BY p.date desc LIMIT 27;
-# Time: 160530 20:52:46
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.094652  Lock_time: 0.000052 Rows_sent: 91  Rows_examined: 98659
-SET timestamp=1464630766;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='6m18te' ORDER BY p.date asc LIMIT 91;
-# Time: 160530 20:52:57
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.246073  Lock_time: 0.000038 Rows_sent: 60585  Rows_examined: 159794
-SET timestamp=1464630777;
+# Query_time: 6.483898  Lock_time: 0.000038 Rows_sent: 60585  Rows_examined: 159794
+SET timestamp=1464632191;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='21';
-# Time: 160530 20:53:04
+# Time: 160530 21:16:52
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.082250  Lock_time: 0.000055 Rows_sent: 31  Rows_examined: 98933
-SET timestamp=1464630784;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='wxg54' ORDER BY p.date desc LIMIT 31;
-# Time: 160530 20:53:07
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.108493  Lock_time: 0.000138 Rows_sent: 82  Rows_examined: 100603
-SET timestamp=1464630787;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='hblyetdvzx' ORDER BY p.date desc LIMIT 82;
-# Time: 160530 20:53:18
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.066251  Lock_time: 0.000148 Rows_sent: 100  Rows_examined: 100507
-SET timestamp=1464630798;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='l4' ORDER BY p.date desc LIMIT 100;
-# Time: 160530 20:53:22
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.234953  Lock_time: 0.000033 Rows_sent: 60383  Rows_examined: 158951
-SET timestamp=1464630802;
+# Query_time: 6.424857  Lock_time: 0.000049 Rows_sent: 60383  Rows_examined: 158951
+SET timestamp=1464632212;
 SELECT DISTINCT user FROM Posts p WHERE p.forum='6m18te';
-# Time: 160530 20:53:28
+# Time: 160530 21:17:31
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.068285  Lock_time: 0.000129 Rows_sent: 69  Rows_examined: 99701
-SET timestamp=1464630808;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='c5q' ORDER BY p.date asc LIMIT 69;
-# Time: 160530 20:53:31
+# Query_time: 6.583750  Lock_time: 0.000030 Rows_sent: 60960  Rows_examined: 161481
+SET timestamp=1464632251;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='hblyetdvzx';
+# Time: 160530 21:18:00
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.103738  Lock_time: 0.000056 Rows_sent: 90  Rows_examined: 99299
-SET timestamp=1464630811;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='21' ORDER BY p.date asc LIMIT 90;
-# Time: 160530 20:53:34
+# Query_time: 6.479419  Lock_time: 0.000084 Rows_sent: 60585  Rows_examined: 159794
+SET timestamp=1464632280;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='21';
+# Time: 160530 21:18:10
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.045904  Lock_time: 0.000120 Rows_sent: 91  Rows_examined: 103315
-SET timestamp=1464630814;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='so8c4' ORDER BY p.date asc LIMIT 91;
-# Time: 160530 20:53:41
+# Query_time: 6.399575  Lock_time: 0.000032 Rows_sent: 60383  Rows_examined: 158951
+SET timestamp=1464632290;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='6m18te';
+# Time: 160530 21:18:29
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.062434  Lock_time: 0.000057 Rows_sent: 47  Rows_examined: 99679
-SET timestamp=1464630821;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='c5q' ORDER BY p.date desc LIMIT 47;
-# Time: 160530 20:53:48
+# Query_time: 6.418746  Lock_time: 0.000103 Rows_sent: 59961  Rows_examined: 157525
+SET timestamp=1464632309;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='uedn';
+# Time: 160530 21:18:40
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.016413  Lock_time: 0.000116 Rows_sent: 17  Rows_examined: 104050
-SET timestamp=1464630828;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='vikycowg4' ORDER BY p.date desc LIMIT 17;
-# Time: 160530 20:53:58
+# Query_time: 6.489824  Lock_time: 0.000080 Rows_sent: 60529  Rows_examined: 159431
+SET timestamp=1464632320;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='wxg54';
+# Time: 160530 21:18:53
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.104117  Lock_time: 0.000057 Rows_sent: 39  Rows_examined: 98607
-SET timestamp=1464630838;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='6m18te' ORDER BY p.date asc LIMIT 39;
-# Time: 160530 20:54:01
+# Query_time: 6.541873  Lock_time: 0.000031 Rows_sent: 60856  Rows_examined: 161263
+SET timestamp=1464632333;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='l4';
+# Time: 160530 21:19:03
 # User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.019814  Lock_time: 0.000132 Rows_sent: 13  Rows_examined: 104046
-SET timestamp=1464630841;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='vikycowg4' ORDER BY p.date desc LIMIT 13;
-# Time: 160530 20:54:04
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.101996  Lock_time: 0.000084 Rows_sent: 73  Rows_examined: 100594
-SET timestamp=1464630844;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p WHERE p.forum='hblyetdvzx' ORDER BY p.date desc LIMIT 73;
-# Time: 160530 20:54:11
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.023755  Lock_time: 0.000098 Rows_sent: 91  Rows_examined: 104124
-SET timestamp=1464630851;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='vikycowg4' ORDER BY p.date desc LIMIT 91;
-# Time: 160530 20:54:14
-# User@Host: root[root] @ localhost [127.0.0.1]
-# Query_time: 3.048637  Lock_time: 0.000116 Rows_sent: 76  Rows_examined: 103300
-SET timestamp=1464630854;
-SELECT p.date, p.dislikes, p.forum, p.dislikes, p.forum, p.id, p.isApproved, p.isApproved, p.isDeleted, p.isEdited, p.isHighlighted, p.isSpam, p.likes, p.message, p.thread, p.user, p.parent, p.likes-p.dislikes as points FROM Posts p JOIN Forums second ON p.forum=second.short_name WHERE second.short_name='so8c4' ORDER BY p.date desc LIMIT 76;
+# Query_time: 6.832216  Lock_time: 0.000050 Rows_sent: 61931  Rows_examined: 165964
+SET timestamp=1464632343;
+SELECT DISTINCT user FROM Posts p WHERE p.forum='vikycowg4';
